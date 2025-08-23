@@ -19,3 +19,17 @@
 # SecureCorpAzure
 Enterprise Azure Security Architecture - Zero Trust Implementation
 
+## Project Context
+
+### Real-World Scenario
+This project demonstrates enhancing an EXISTING Azure AD environment with additional security controls - a common enterprise scenario where you must:
+- Work within existing constraints
+- Not disrupt current operations  
+- Layer additional security without conflicts
+- Maintain backward compatibility
+
+### Integration Challenges Solved
+- Integrated 5 new policies without disrupting [X] existing policies
+- Ensured no policy conflicts or overlaps
+- Maintained separate namespace (CA00X) for clear governance
+- Preserved existing break-glass procedures
